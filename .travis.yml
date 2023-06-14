@@ -1,0 +1,8 @@
+language:python
+python:
+ - '3.11'
+ - 'nightly'
+install:
+ - 'pip install selenium'
+ -  'pip install webdriver-manager'
+script: python -m unittest new_travs/
